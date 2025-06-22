@@ -52,14 +52,3 @@ This is a simple example meant for small groups on a trusted network. It does
 not implement encryption or authentication, so avoid using it over the public
 Internet.
 
-## Packaging as Executables
-
-To create standalone Windows executables, install **PyInstaller** and run:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile server.py
-pyinstaller --onefile client.py
-```
-
-The generated `.exe` files will be placed in the `dist` directory.
